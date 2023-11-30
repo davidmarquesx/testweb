@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <style>
+      body { background: #ccc }
+      h1 { color: red; opacity: 0 }
+      .fadeIn { opacity: 1; transition: all .6s }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Hello World!</h1>
+    </center>  
+
+    <script>
+       txt = document.querySelector('h1');
+      setTimeout(function(){
+          txt.classList.add('fadeIn');
+      }, 800)
+    </script>
+  </body>
+</html>
